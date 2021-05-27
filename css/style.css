@@ -1,32 +1,29 @@
 *{
-    margin: 0;
-    padding: 0;
-    text-decoration:none;
-    color: black;
+    box-sizing: border-box;
 }
 
-.info-addres-top-day{
-    display: flex;
-    background-color: #e6e4e4;
-    justify-content:space-between;
-    font-size: 15px;
-    padding: 0.2em;   
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
 }
 
-.menu{
-    display: flex;
+body{
+    font-family: sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
     text-decoration: none;
-    background-color: #9BE6F7;
-    justify-content:space-between;
 }
 
-.item1{
-    margin-left: 1em;
-    text-align: center;
+img{
+    display: block;
+    max-width:  100%;
 }
-
-
-
 
 
 
